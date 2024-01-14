@@ -161,7 +161,77 @@
                     <img class="arrow-icon" src="./images/icon/arrow.svg" alt="arrow icon">
                   </div>
                   <div class="notification-right">
-                    <a class="sign-up" href="#!">Зарегистрироваться</a>
+                    <a class="sign-up" href="#!" data-bs-toggle="modal" data-bs-target="#signUpModal">Зарегистрироваться</a>
+                    <!-- sign up modal -->
+                    <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+        <img class="close-btn" src="./images/icon/close-icon.svg" alt="close-icon" data-bs-dismiss="modal" aria-label="Close">
+      </div>
+      <div class="modal-body">
+        <h1 class="sign-up-title">РЕГИСТРАЦИЯ</h1>
+        <div class="sign-up-descr">
+          <p class="descr">Зарегистрируйтесь и вы сможете  посмотреть цены* на наш лом. </p>
+          <span class="mark-text">*Металл в больших объемах могут покупать только юридические лица</span>
+        </div>
+        <!-- modal form -->
+        <form class="sign-up-form">
+          <div class="inn-input">
+            <input type="text" placeholder="Ваш ИНН">
+          </div>
+          <div class="phone-number-input">
+            <input type="text" placeholder="Ваш телефон">
+          </div>
+          <div class="email-input">
+            <input type="email" placeholder="Ваш E-mail">
+          </div>
+          <div class="password-inputs">
+            <div class="frist-password">
+              <div class="frist-icon">
+                <input id="frist-password" type="password" placeholder="Ваш password">
+                <img class="view-password passInput" id="hideIcon" onclick="showHide()" src="./images/icon/view.png" alt="view" width="24">
+              </div>
+              <label for="frist-password" id="frist-label">Придумать пароль</label>
+            </div>
+            <div class="second-password">
+              <div class="frist-icon">
+                <input id="second-password"  type="password">
+                <img class="hide-password" id="secondHideIcon"  onclick="secondSHowHide()" src="./images/icon/eyebrow.png" alt="eyebrow" width="24">
+              </div>
+              <label for="second-password">Повторить  пароль</label>
+            </div>
+          </div>
+          <div class="file-upload-input">
+            <div class="frist-icon">
+              <input id="file-upload" type="file">
+              <img src="./images/icon/attach-paperclip-symbol.png" alt="attach-paperclip-symbol" width="24">
+            </div>
+            <label for="file-upload">Загрузите скан или фото лицензии</label>
+          </div>
+          <div class="sign-up-btns">
+            <a class="sign-up-btn" id="signUpBtn" href="#!">Зарегистрироваться</a>
+          </div>
+          <!-- newWindow success sign up-->
+          <div class="success-sign-up">
+            <img class="success-icon" src="./images/icon/cricle-success.svg" alt="cricle-success">
+            <h1 class="success-title">Ваша заявка на регистрацию находится на проверке.</h1>
+             <p class="success-descr">Как только она завершится, Вам придёт оповещение на почту.</p>
+          </div>
+          <div class="offers">
+            <p>Нажимая на кнопку вы  принимаете <a href="#!">условия</a> публичной оферты</p>
+            <p>Нажимая на кнопку вы даете согласие на обработку персональных данных и соглашаетесь <a href="#!">с политикой конфиденциальности</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+                    <!-- sign up modal -->
                     <a class="sign-in" href="#!">Войти</a>
                   </div>
                 </div>

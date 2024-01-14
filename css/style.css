@@ -484,12 +484,221 @@ body
         text-decoration: none;
         background: linear-gradient(267deg, #55C127 0%, #345F99 100%);
     }
+
+    /* sign up modal */
+    .modal .close-btn
+    {
+        cursor: pointer;border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+    }
+
+    .modal
+    {
+        --bs-modal-width: 658px;
+    }
+
+    .modal .modal-body
+    {
+        min-width: 853px;
+        padding: 20px 44px 50px 44px;
+    }
+
+    .modal .modal-header
+    {
+        border: none;
+    }
+
+    .modal-header
+    {
+        padding: 0;
+    }
+
+    .modal-header .close-btn
+    {
+        padding: 50px 0px 0px 44px;
+    }
+
+    .sign-up-title
+    {
+        color: #295491;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .sign-up-descr
+    {
+        color: #295491;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 129.188%;
+        margin-bottom: 32px;
+    }
+
+    .mark-text
+    {
+        color: #3EB20C;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .modal .modal-content
+    {
+        width: 853px;
+    }
+
+    /* form */
+    .sign-up-form  input
+    {
+        border-radius: 30px;
+        background: #D4E5EF;
+        padding: 18px 200px 18px 27px;
+        border: none;
+        color: #295491;
+        font-size: 16px;
+        font-weight: 300;
+        outline-color:#2f5996 ;
+    }
+
+    .inn-input,
+    .email-input,
+    .phone-number-input
+    {
+        margin-bottom: 14px;
+    }
+
+    .sign-up-form label
+    {
+        color: #295491;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 40px;
+    }
+
+    .sign-up-form input[type="file"]
+    {
+        width: 431px;
+    }
+
+    .frist-password, .second-password, .file-upload-input
+    {
+        margin-bottom: 14px;
+    }
+
+    .password-inputs input[type="password"]
+    {
+        margin-bottom: 0;
+    }
+
+    .file-upload-input input[type="file"]
+    {
+        margin-bottom: 0;
+    }
+
+    .frist-icon
+    {
+        position: relative;
+        display: inline-block;
+    }
+
+    .frist-icon img 
+    {
+        position: absolute;
+        top: 50%;
+        right: 27px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .sign-up-btns
+    {
+        border-radius: 30px;
+        padding: 17px 41px;
+        display: inline-block;
+        margin-bottom: 10px;
+        background: linear-gradient(267deg, #55C127 0%, #345F99 100%);
+    }
+
+    .sign-up-btn
+    {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .offers p
+    {
+        color: #2A5391;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .offers a
+    {
+        color: #3CAF0E;
+        font-size: 13px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    /* new window success sign up */
+    .success-sign-up 
+    {
+        padding: 97px 70px 98px 70px;
+        text-align: center;
+        display: none;
+    }
+
+    .success-sign-up .success-title
+    {
+        color: #295491;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 129.188%;
+    }
+
+    .success-sign-up .success-descr
+    {
+        color: #295491;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 129.188%;
+    }
+
+   
+
 /* meadiQuery */
 
 @media screen and (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
     {
         max-width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .nav-item.tools 
+    {
+        display: none !important;
+    }
+    
+    .navigation .navigation-menu
+    {
+        flex-wrap: wrap;
+    }
+
+    .header-left
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 }
 
