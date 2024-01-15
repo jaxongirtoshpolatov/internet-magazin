@@ -1,0 +1,129 @@
+.copy-products
+{
+    margin-top: 56px;
+}
+
+.copy-buy-product
+{
+    margin-bottom: 17px;
+}
+
+.copy-title
+{
+    color: #2A5391;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.copy-minus
+{
+    font-size: 42px;
+}
+
+.copy-status
+{
+    color: #2A5391;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    background: #E5EDF3;
+    padding: 0px 28px;
+}
+
+.copy-add-item
+{
+    gap: 6px;
+}
+
+.copy-minus, .copy-plus
+{
+    color: #3eb10c;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.copy-line
+{
+    background: rgba(42, 83, 145, 0.10);
+    width: 218px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+
+.copy-price-name
+{
+    color: #2A5391;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#copyLastPrice
+{
+    color: #3EB10C;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 10px;
+}
+
+.buy
+{
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+.copy-continue-price
+{
+    color: #3EB40C;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    border: 2px solid #3EB40C;
+    padding: 15px 35px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buy-links
+{
+    text-align: center;
+}
+
+.copy-type-menu
+{
+    border-radius: 30px;
+    background: #D4E5EF;
+}
+
+
+
+.copy-type-link
+{
+    padding: 18px 84px 13px 40px;
+    width: 100%;
+    margin-bottom: 13px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all .5s linear;
+}
+
+.copy-type-link:last-child
+{
+    margin-bottom: 0;
+}
+
+.copy-type-link:hover
+{
+    background-color: #3EB20C;    
+    color: #fff;
+}
+
+.copy-type-link
+{
+    color: #2A5391;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
